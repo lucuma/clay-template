@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{% block title %}Welcome to Clay{% endblock %}</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico">
+  <link href="/static/styles/normalize.css" rel="stylesheet">
+  <link href="/static/styles/main.css" rel="stylesheet">
+  {% block head %}{% endblock %}
+</head>
+<body>
+  {% block content %}{% endblock %}
+
+  <script src="/static/scripts/jquery.min.js"></script>
+  <script src="/static/scripts/main.js"></script>
+</body>
+</html>
